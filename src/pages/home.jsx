@@ -69,12 +69,12 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col gap-10 px-10 sm:items-center'>
+            <div className='flex flex-col gap-10 px-20 sm:items-center '>
                 <h1 className='text-[#0E2368] text-[56px] leading-[27px] font-semibold flex items-start sm:text-[28px] sm:flex sm:flex-col sm:items-center'>Latest Articles</h1>
                 <div className='overflow-hidden'>
                     <div className='flex whitespace-nowrap gap-5 sm:flex sm:flex-col transition duration-1000 ease max-h-[1560px] sm:flex-wrap ' style={{ transform: `translate3d(${-currentCard * 100}%,0,0)`}}>
                         {data.map((value, index) => (
-                            <div className='inline whitespace-normal m-0 sm:w-full  '>
+                            <div className='inline whitespace-normal m-0 sm:w-[95%] '>
                                 <div className='border border-[#93A2D3] p-5 sm:p-5 flex flex-col items-center rounded-lg justify-center gap-5 '>
                                     <img src={value.img} alt="card" className='sm:w-[204px] sm:h-[166px]' />
                                     <div className='flex flex-col gap-3 items-center w-72 sm:w-[236px] '>
